@@ -22,6 +22,7 @@ La reconnaissance d'émotions à partir d'images constitue un domaine de recherc
 
 ## PRÉTRAITEMENT DES DONNÉES
 - <span style="font-size: larger;"><u>Première étape :</u> rendre les images sous forme carré </span>
+
 ![alt text](Picture5.png)
 
 ```python
@@ -37,6 +38,7 @@ def Rendre_carré(path_image):
 - <span style="font-size: larger;"><u>Deuxième étape:</u> 
 redimensionnement
  </span>
+ 
 ![alt text](Picture6.png)
 
 ```python
@@ -48,6 +50,7 @@ def preprocess_image(image_path, target_size=(64, 64)):
 
 - <span style="font-size: larger;"><u>Troixième étape:</u> cropping
  </span>
+ 
 ![alt text](Picture7.png)
 
 ```python
