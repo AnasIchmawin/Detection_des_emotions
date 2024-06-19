@@ -6,8 +6,6 @@
 
 </div><br>
 
-![alt text](Picture1.png)
-
 | Realisé par: | Encadré par: |
 |--------------|--------------|
 | - IMANI Mourad | - ENNAJI Fatima Ezzohra |
@@ -20,12 +18,12 @@
 La reconnaissance d'émotions à partir d'images constitue un domaine de recherche et d'application passionnant, alliant les disciplines de l'apprentissage profond, de la vision par ordinateur et de la psychologie. Ce projet s'inscrit dans ce contexte stimulant en visant à développer un modèle de réseau neuronal convolutionnel (CNN) capable de classifier les émotions humaines à partir d'images faciales en niveaux de gris
 
 ## EXPLORATION DES DONNÉES
-![alt text](Picture4.png)
+![alt text](Pictures/Picture4.png)
 
 ## PRÉTRAITEMENT DES DONNÉES
 - ### <u>Première étape</u> : rendre les images sous forme carré 
 
-![alt text](Picture5.png)
+![alt text](Pictures/Picture5.png)
 
 ```python
 def Rendre_carré(path_image):
@@ -40,7 +38,7 @@ def Rendre_carré(path_image):
 - ### <u>Deuxième étape</u> : redimensionnement
  
 
-![alt text](Picture6.png)
+![alt text](Pictures/Picture6.png)
 
 ```python
 def preprocess_image(image_path, target_size=(64, 64)):
@@ -52,7 +50,7 @@ def preprocess_image(image_path, target_size=(64, 64)):
 - ### <u>Troixième étape</u> : cropping
  
 
-![alt text](Picture7.png)
+![alt text](Pictures/Picture7.png)
 
 ```python
 def Cropping(image_path):
@@ -170,7 +168,7 @@ plt.show()
 ```
 ## VISUALISER LES RÉSULTATS
 
-![alt text](Picture8-1.png)
+![alt text](Pictures/Picture8-1.png)
 
 ## UTILISATION DE LA WEBCAM POUR LA DÉTECTION EN TEMPS RÉEL
 
